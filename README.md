@@ -6,7 +6,7 @@ A working sketch of the move described in the developer briefing (15/11/2026), p
 
 ```
 npm install
-npm test          # creates a throwaway database, applies the migrations, runs 56 tests (about 3 seconds)
+npm test          # creates a throwaway database, applies the migrations, runs 56 tests one file at a time (about 3 seconds)
 ```
 
 Needs Node 22.23.4+ and a local Postgres reachable through the usual `PG*` variables.
