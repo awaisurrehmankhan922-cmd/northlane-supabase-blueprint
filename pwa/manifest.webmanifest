@@ -1,0 +1,23 @@
+{
+  "name": "North Lane CRM",
+  "short_name": "North Lane",
+  "description": "Lettings, sales, client account and paperwork for North Lane Real Estate.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f2f2e",
+  "theme_color": "#0f2f2e",
+  "lang": "en-GB",
+  "icons": [
+    { "src": "/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/img/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "New contact", "url": "/#contacts/new" },
+    { "name": "Calendar", "url": "/#calendar" },
+    { "name": "Collect rent", "url": "/#rentrun" }
+  ]
+}
